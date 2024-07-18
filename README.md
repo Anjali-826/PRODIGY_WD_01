@@ -1,4 +1,5 @@
 # PRODIGY_WD_01
+PIT/JUN24/16002
 <h1>Responsive Landing Page</h1>
 
 This project is a responsive landing page designed to provide information about [your project/service/organization]. It is built using HTML, CSS, and optionally JavaScript to ensure compatibility across various devices and screen sizes.
