@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links li a:hover {
+            background-color: #555;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 80px 20px;
+            text-align: center;
+            height: 100vh;
+        }
+
+        section h1, section h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header id="navbar">
+    <div class="container">
+        <div class="logo">Prodigy Infotech</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<section id="home">
+    <h1>Welcome to our Landing Page!</h1>
+    <!-- Add more content as needed -->
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <!-- Add more content as needed -->
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <!-- Add more content as needed -->
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <!-- Add more content as needed -->
+</section>
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        var navbar = document.getElementById("navbar");
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            navbar.style.backgroundColor = "#222";
+        } else {
+            navbar.style.backgroundColor = "#333";
+        }
+    }
+</script>
+
+</body>
+</html>
