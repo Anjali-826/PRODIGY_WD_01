@@ -1,6 +1,7 @@
 # PRODIGY_WD_01
 PIT/JUN24/16002
 <h1>Responsive Landing Page</h1>
+![WhatsApp Image 2024-07-16 at 1 19 33 PM](https://github.com/user-attachments/assets/bb00afc2-9963-4256-b091-33cb831b1984)
 
 This project is a responsive landing page designed to provide information about [your project/service/organization]. It is built using HTML, CSS, and optionally JavaScript to ensure compatibility across various devices and screen sizes.
 
